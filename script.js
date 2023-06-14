@@ -36,4 +36,4 @@ window.promises.push(p5);
 
 // const promises = [promise1, promise2, promise3];
 const out = document.getElementById('output');
-Promise.any(promises).then((value) => out.innerText=value ;
+Promise.any(promises).then((value) => out.innerText=value) ;
